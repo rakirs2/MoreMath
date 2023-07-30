@@ -2,11 +2,10 @@
 
 public class PrimeSieve
 {
+    private readonly HashSet<int> _primes;
+
+    private readonly List<int> _primesList;
     private int _end = 3;
-
-    private HashSet<int> _primes;
-
-    private List<int> _primesList;
 
     public PrimeSieve()
     {
@@ -45,5 +44,10 @@ public class PrimeSieve
     {
         if (_end < num) ExtendRange(num);
         return _primes.Contains(num);
+    }
+
+    public List<int> ListPrimes(int num)
+    {
+        return _primesList;
     }
 }
