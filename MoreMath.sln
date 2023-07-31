@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polynomial", "Polynomial\Polynomial.csproj", "{D90F48A3-A7BF-446E-B366-D9C4805C2E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{E3007C13-222B-4380-9208-FBEABA90D2A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{53AD2F84-F07F-4634-A443-A8D1A7A557F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53AD2F84-F07F-4634-A443-A8D1A7A557F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53AD2F84-F07F-4634-A443-A8D1A7A557F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90F48A3-A7BF-446E-B366-D9C4805C2E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90F48A3-A7BF-446E-B366-D9C4805C2E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90F48A3-A7BF-446E-B366-D9C4805C2E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90F48A3-A7BF-446E-B366-D9C4805C2E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3007C13-222B-4380-9208-FBEABA90D2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3007C13-222B-4380-9208-FBEABA90D2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3007C13-222B-4380-9208-FBEABA90D2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3007C13-222B-4380-9208-FBEABA90D2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
